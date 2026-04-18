@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #0f5132, #2e7d5b);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.317);
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(180deg, #147d35, hwb(154 5% 53%));
+  box-shadow: 0 24px 32px 0px rgba(0, 0, 0, 0.15);
+
+  /* box-shadow: 0px 0px 15px rgb(145, 170, 3); */
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile h1 {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.profile p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.socials {
+  margin: 15px 0;
+}
+
+.socials a {
+  margin: 0 10px;
+  font-size: 22px;
+  color: white;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+  color: #00ffcc;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.card {
+  /* display: block; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 2rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 15px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+.card .logo {
+  height: 50px;
+  border-radius: 1rem;
+  /* width: 10px; */
+}
