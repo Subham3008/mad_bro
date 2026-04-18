@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding-block:2rem ;
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
   max-width: 400px;
   text-align: center;
   border: 2px solid rgba(255, 255, 255, 0.317);
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1.5rem;
   background: linear-gradient(180deg, #147d35, hwb(154 5% 53%));
   box-shadow: 0 24px 32px 0px rgba(0, 0, 0, 0.15);
